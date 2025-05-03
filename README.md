@@ -1,7 +1,7 @@
 # template_repo
 
 ![CI](https://github.com/yamanora/temp_repo/actions/workflows/ci.yml/badge.svg)  
-[![codecov](https://codecov.io/gh/yamanora/template_repo/branch/main/graph/badge.svg)](https://codecov.io/gh/yamanora/temp_repo)
+[![codecov](https://codecov.io/gh/yamanora/temp_repo/branch/main/graph/badge.svg)](https://codecov.io/gh/yamanora/temp_repo)
 
 開発用Pythonテンプレート  
 Poetry/pre-commit/pytest(+coverage) /CI
