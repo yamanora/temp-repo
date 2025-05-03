@@ -5,6 +5,11 @@ description = ""
 authors = [
     {name = "yamanora",email = "yamanora125@gmail.com"}
 ]
+
+packages = [
+    { include = "temp_repo" }
+]
+
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
