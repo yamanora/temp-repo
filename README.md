@@ -30,13 +30,16 @@ poetry run temp-repo --help
 ## ファイル構成
 
 ```
-template_repo/
-├── temp_repo/              # パッケージ本体
-│   ├── __init__.py
-│   └── cli.py              # CLIのエントリーポイント
+temp_repo/
+├── src/
+│   └── temp_repo/          # パッケージ本体
+│       ├── __init__.py
+│       └── cli.py          # CLIのエントリーポイント
 ├── tests/                  # 単体テスト
 │   └── test_dummy.py
-├── .github/workflows/ci.yml  # CI設定
+├── .github/
+│   └── workflows/
+│       └── ci.yml          # CI設定
 ├── pyproject.toml
 ├── README.md
 └── ...
