@@ -1,7 +1,7 @@
-# temp_repo
+# temp-repo
 
-![CI](https://github.com/yamanora/temp_repo/actions/workflows/ci.yml/badge.svg)  
-[![codecov](https://codecov.io/gh/yamanora/temp_repo/branch/main/graph/badge.svg)](https://codecov.io/gh/yamanora/temp_repo)
+![CI](https://github.com/yamanora/temp-repo/actions/workflows/ci.yml/badge.svg)  
+[![codecov](https://codecov.io/gh/yamanora/temp-repo/branch/main/graph/badge.svg)](https://codecov.io/gh/yamanora/temp_repo)
 
 開発用Pythonテンプレート  
 Poetry/pre-commit/pytest(+coverage) /CI
@@ -30,7 +30,7 @@ poetry run temp-repo --help
 ## ファイル構成
 
 ```
-temp_repo/
+temp-repo/
 ├── src/
 │   └── temp_repo/          # パッケージ本体
 │       ├── __init__.py
