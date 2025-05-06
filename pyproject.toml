@@ -30,9 +30,13 @@ ruff = "^0.11.8"
 temp-repo = "temp_repo.cli:main"
 
 [tool.ruff]
-line-length = 88
-select = ["E", "F", "I", "B", "UP", "SIM"]
 fix = true
+line-length = 88
+
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
 
 [tool.coverage.run]
 source = ["temp_repo"]
